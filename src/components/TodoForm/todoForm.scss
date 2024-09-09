@@ -1,0 +1,21 @@
+.add-todo {
+    margin: 20px 150px 22px 150px;
+    padding: 15px 0px 15px 0px;
+  }
+  
+  .add-todo>.text-field{
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 16px;
+  }
+  
+  .add-todo>Button{
+    width: 20%;
+    margin: 5px;
+    text-transform: capitalize;
+  }
+  
+  .add-todo>Button>svg{
+    margin-right: 4px;
+  }

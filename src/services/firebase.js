@@ -1,7 +1,3 @@
-// import { initializeApp } from "firebase/app";
-// import { getFirestore } from "firebase/firestore";
-// import firebase from "firebase/compat/app";
-// import "firebase/compat/firestore";
 import { initializeApp } from "firebase/app";
 import {
   getFirestore,
@@ -20,13 +16,7 @@ const firebaseConfig = {
   measurementId: "G-9Y697TX3SZ",
 };
 
-// const firebaseApp = firebase.initializeApp(firebaseConfig);
-// const db = getFirestore(firebaseApp);
-// const db = firebaseApp.firestore();
-
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
 
 export { db, collection, addDoc, onSnapshot };
-
-// export default { db };

@@ -1,0 +1,30 @@
+.todos-rendering {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px 20px 150px;
+    padding: 10px;
+  }
+  
+  .todos-rendering>p {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .todos-rendering>span {
+    font-size: 10px;
+    position: absolute;
+    left: 160px;
+    padding-top: 36px;
+    font-weight: 500;
+  }
+  
+  .todos-rendering>div>Button {
+    width: 150px;
+    margin: 5px;
+    text-transform: capitalize;
+  }
+  
+  .todos-rendering>div>Button>svg{
+    margin-right: 4px;
+  }
