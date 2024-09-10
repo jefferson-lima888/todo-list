@@ -1,8 +1,34 @@
-# React + Vite
+# Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+Uma aplicação simples de lista de tarefas construída com React e Vite, utilizando o Material UI para componentes visuais, Firestore do Firebase como banco de dados, Sass para estilização e Jest para testes unitários. O Storybook foi configurado para visualização e desenvolvimento de componentes isolados.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+* **Frontend:** React, Vite
+* **UI:** Material UI
+* **Banco de Dados:** Firebase Firestore
+* **Estilização:** Sass
+* **Testes:** Jest
+* **Storybook:** Para desenvolvimento de componentes isolados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalação
+1. **Clone o repositório:**
+   ```bash
+   https://github.com/jefferson-lima888/todo-list.git
+
+## Instale as dependências
+
+Instale as dependências e devDependencies.
+
+```sh
+cd todo-list
+npm install
+```
+
+## Inicie o servidor de desenvolvimento
+
+```sh
+npm run dev
+ou
+npm run dev -- --port 3000
+```
